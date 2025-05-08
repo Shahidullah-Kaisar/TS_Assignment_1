@@ -65,11 +65,11 @@ Output:
 ```
 ## Difference Between Example 2:
 
-Interface allows declaration merging, meaning if you declare the same interface multiple times, TypeScript will automatically combine them.
+Interface allows declaration merging, meaning if the same interface is declared multiple times, TypeScript will automatically combine them.
 
 In the example above, User is declared twice, and TypeScript merges the two, resulting in a single interface with the properties name, age, and email.
 
-On the other hand, type does not support declaration merging. Instead, you can combine multiple types using intersections (&), which results in a new type (UserProfile in this case) that includes the properties from both BasicInfo and ContactInfo.
+On the other hand, type does not support declaration merging. Instead, multiple types can be combined using intersections (&), which results in a new type (UserProfile) that includes the properties from both BasicInfo and ContactInfo.
 
 
 ## Type vs Interface Comparison
@@ -85,14 +85,18 @@ When it comes to extending or implementing, interfaces are better suited for wor
 
 ### Use interface when:
 
-Defining the structure of objects or classes.
-Declaration merging is needed.
+Defining the structure of objects or classes.  
+
+Declaration merging is needed.  
+
 Extending other interfaces is required.
 
 ### Use type when:
 
-Representing primitives, unions, tuples, or intersections.
-More versatility in combining types is desired.
+Representing primitives, unions, tuples, or intersections.  
+
+More versatility in combining types is desired.  
+
 Merging capabilities are not required.
 
 
