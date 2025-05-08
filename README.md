@@ -104,33 +104,33 @@ Merging capabilities are not required.
 
 1. Enhanced Tooling and IDE Support  
 
-TypeScript adds static typing to JavaScript, helping developers catch errors at compile-time. This improves code completion, refactoring, and navigation in IDEs.
+    TypeScript adds static typing to JavaScript, helping developers catch errors at compile-time. This improves code completion, refactoring, and navigation in IDEs.
 
-Modern ECMAScript features like async/await and decorators are transpiled to compatible JavaScript versions, ensuring broad compatibility.
+    Modern ECMAScript features like async/await and decorators are transpiled to compatible JavaScript versions, ensuring broad compatibility.
 
 2. Code Maintainability  
 
-TypeScript’s static typing helps detect errors early, improving readability and reducing bugs.
+    TypeScript’s static typing helps detect errors early, improving readability and reducing bugs.
 
-Using custom types and interfaces makes complex data structures easier to understand, leading to more maintainable code.
+    Using custom types and interfaces makes complex data structures easier to understand, leading to more maintainable code.
 
 3. Scalability
 
-TypeScript supports scalable projects by providing a clear contract between code components, ensuring bugs are minimized.
+    TypeScript supports scalable projects by providing a clear contract between code components, ensuring bugs are minimized.
 
-The compiler guarantees that type dependencies are met, making refactoring and feature additions safer.
+    The compiler guarantees that type dependencies are met, making refactoring and feature additions safer.
 
 4. Strong Typing 
 
-TypeScript catches type mismatches early, making code more predictable. Developers can define types for variables, functions, and interfaces, reducing bugs.
+    TypeScript catches type mismatches early, making code more predictable. Developers can define types for variables, functions, and interfaces, reducing bugs.
 
 5. Advanced Features
 
-TypeScript includes classes, interfaces, generics, and async/await, enabling clean and efficient code with faster development cycles.
+    TypeScript includes classes, interfaces, generics, and async/await, enabling clean and efficient code with faster development cycles.
 
 6. Enhanced Readability
 
-TypeScript’s strong typing and modern syntax improve code clarity, making it easier to collaborate and maintain large projects.
+    TypeScript’s strong typing and modern syntax improve code clarity, making it easier to collaborate and maintain large projects.
 
 
 
